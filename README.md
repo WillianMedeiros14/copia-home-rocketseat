@@ -7,3 +7,5 @@ E sei que que preciso melhorar bastante a qualidade do código, mas trabalharei 
 - HTML5 
 - CSS3
 - Javascript
+
+- Visualize como ficou clicando aqui: https://willianmedeiros14.github.io/copia-home-rocketseat/ 
