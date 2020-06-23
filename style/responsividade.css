@@ -1,0 +1,243 @@
+/* Responsividade*/
+@media (max-width: 807px) {
+
+    header {
+        height:60px;
+    }
+
+    header .menu-logo .logo {
+        width: 38px;
+        height: 25px;
+    }
+
+    header .menu-logo .logo img {
+        width: 30px;
+        height: 25px;
+    }
+
+    header .menu-logo .aparecer {
+     display: none;
+    }     
+    
+    header .menu-logo button {
+        display: flex;
+    }
+
+    /* MENU RESPONSIVO*/
+    
+    header .menu-logo nav ul {
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+    
+
+    header .menu-logo nav ul li{
+        padding: 10px 0;
+    }
+
+    header .menu-logo nav ul li a{
+        font-size: 28px;
+        font-weight: 600;
+    }
+
+    .menu-responsivo {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 0;
+        
+        background: rgba(113, 89, 193, 0.9);       
+    }
+
+    .display-nav {
+        display: flex;
+    } 
+
+    .newsletter {
+       position: relative;
+       z-index: 2;
+    }
+}
+
+@media (max-width: 550px) {       
+    
+    header .social-login button {
+        display: none;
+    }
+
+}
+
+@media (max-width: 360px) {       
+    header .menu-logo button {
+        margin-left: 10px;
+    }
+        
+    header .social-login .social-icons{
+        width: 110px;
+    }
+}
+
+@media (max-width: 700px) {  
+    
+    .melhores-tecnologias .center,
+    .treinamentos .center,
+    .comunidade .center {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .melhores-tecnologias img,
+    .trofel .center img,
+    .comunidade .center img {
+        display: none;
+    }
+ 
+    .melhores-tecnologias .melhores-programacao,
+    .trofel .center .tec-trofel,
+    .comunidade .center .tec-comunidade  {
+        max-width: 100%;
+        padding: 15px 0;
+        align-items: center;
+        flex-direction: center;
+    }
+
+    .melhores-tecnologias .melhores-programacao h1,
+    .melhores-tecnologias .melhores-programacao p,
+    .trofel .center .tec-trofel h1,
+    .trofel .center .tec-trofel h2,
+    .comunidade .center .tec-comunidade h1,
+    .comunidade .center .tec-comunidade p {
+        text-align: center;
+    }
+
+    .trofel .center .tec-trofel p{
+        max-width: 100%;
+        text-align: center;
+    }
+    
+    .treinamentos .center,
+    .parceiros .center {
+        width: 100%;
+        min-width: 0;
+        max-width: 100%;
+       
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;        
+    }
+        
+    .treinamentos .center .starter,
+    .treinamentos .center .bootcamp  {
+        max-width: 100%;   
+        justify-content: center;
+        align-items: center;
+    }
+
+    .treinamentos .center .starter .trilha-starter,
+    .treinamentos .center .bootcamp .trilha-bootcamp {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .treinamentos .center .starter p,
+    .treinamentos .center .bootcamp p {
+        text-align: center;
+    }
+
+    .treinamentos .center .bootcamp {
+        margin-top: 70px;
+    }
+}
+
+
+@media (max-width: 800px) {
+    .parceiros .center .sessao-parceiros a .seta {
+       display: none;
+    }
+
+        
+    .parceiros .center .sessao-parceiros a {
+        justify-content: center; 
+    }
+}
+
+
+@media (max-width: 850px) {
+        
+    .newsletter .center .respo-img {
+        display: none;
+    }
+
+    .newsletter .center {
+        width: 100%;
+        min-width: 0;
+        max-width: 100%;
+
+        align-items: center;
+        justify-content: center; 
+    }
+}
+
+
+@media (max-width: 1000px) {
+    footer .center {
+        width: 100%;
+        min-width: 0;
+        max-width: 100%;
+    
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    
+    footer .center p + p {
+        margin-top: 18px;
+    }
+}
+
+@media (max-width: 400px) {
+    
+    .parceiros .center .sessao-parceiros {
+        width: 100%;
+        min-width: 0;
+        max-width: 100%;
+
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .parceiros .center .sessao-parceiros a {
+        width: 100%;  
+    }    
+
+    .parceiros .center .sessao-parceiros a + a {
+        margin-left: 0;
+        margin-top: 15px;
+    }
+}
+
+
+@media (max-width: 500px) {
+    .newsletter .center .receba-news .yoda {
+        display: none;
+    }
+
+    .newsletter .center .receba-news .container-email h3,
+    .newsletter .center .receba-news .container-email p{
+        text-align: center;
+    }
+
+    .newsletter .center .receba-news .container-email {
+        margin-left: 0;
+    }       
+}
